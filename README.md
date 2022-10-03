@@ -4,37 +4,30 @@
 
 ### By: Ryan Caillet
 
-#### [Github](https://github.com/rycaillet) | [LinkedIn](https://www.linkedin.com/in/ryan-caillet-b12a99239/) 
+#### [Github](https://github.com/rycaillet) | [LinkedIn](https://www.linkedin.com/in/ryan-caillet-b12a99239/) | [Trello](https://trello.com/b/tD8HSlHd/ryan-caillet-rock-paper-scissors)
 ***
 
 ### ***Description***
-#### A brief description of the project, ==what== it's about, when and what you made it for, etc. ...
-***
+#### For project 1, I will be making a Rock, Paper, Scissors game that will showcase my knowledge in HTML, CSS, and JS.
 
-### ***Technologies Used***
-* Item 1
-* Item 2
-    * Sub-item
-1. Item 1
-2. Item 2
-    * Sub-item
 ***
 
 ### ***Getting Started***
 ***
-
-### ***Screen Shots***
-##### Pirate bird
-![Image](https://i.imgur.com/sFq0wAC.jpeg)
-##### Sad doggy
-![Image](https://i.imgur.com/n6EhKh1.jpeg)
+![Image](https://i.imgur.com/eau3j1h.jpeg)
 ***
 
 ### ***Future Updates***
-- [ ] Future Update 1
-- [ ] Future Update 2
-- [x] Completed Update
-- [x] ~~Strikethrough~~ Items Also
+- [x] Be a new repo. Create a new repo in your GitHub and build your project there. DO NOT name your repository Project 1. Give it a real name.
+- [] Include a beautiful, professional README.md (use markdown)
+- [] Utilize flexbox or grid (or both)
+- [] Include a minimum of 2 HTML pages and navigation between them
+- [] Include a minimum of 2 event handlers
+- []Have at least 20 meaningful git commits. You should be committing your changes every time you build a new feature.
+- []Your code should be properly indented, spaced, and within code blocks. DO NOT leave in commented out code that was left unused (bad practice). Comments, if in your code at all, should be in your code to describe what your functions are doing.
+- []Display proper use of global variables and function parameters (function scopes)
+- []Use camelCase for JavaScript variables
+- [] Be deployed on Surge (We will cover this on Monday of project week)
 ***
 
 ### ***Credits***
