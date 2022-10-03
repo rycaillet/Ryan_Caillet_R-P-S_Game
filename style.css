@@ -12,7 +12,7 @@ img {
     border-radius: 200px;
 }
 
-.Options {
+.choices {
     margin-top: 10px;
 }
 
@@ -22,8 +22,8 @@ img {
     padding: 20px;
 }
 
-footer {
-    font-size: 80px;
+p {
+    font-size: 20px;
 }
 
 h1 {

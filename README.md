@@ -32,7 +32,7 @@
 
 ### ***Credits***
 
-##### Funny Images: [Imgur](https://imgur.com/)
+##### Funny Image: [Imgur](https://imgur.com/)
 
 ##### Markdown Guide: [ia.net]((https://ia.net/writer/support/general/markdown-guide))
 
