@@ -22,7 +22,12 @@ const win = (userChoice, computerChoice) => {
   results_p.innerHTML = `${userChoice} beats ${computerChoice}. You win!`
 }
 
-const lose = () => {}
+const lose = (userChoice, computerChoice) => {
+  computerScore++
+  userScore_span.innerHTML = userScore
+  computerScore_span.innerHTML = computerScore
+  results_p.innerHTML = `${userChoice} loses to ${computerChoice}. You lose!`
+}
 
 const tie = () => {}
 
