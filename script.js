@@ -10,15 +10,30 @@ const paper_div = document.getElementById('paper')
 const scissors_div = document.getElementById('scissors')
 
 const randomComputerChoice = () => {
-  const choices = ['Rock', 'Paper', 'Scissors']
+  const choices = ['rock', 'paper', 'scissors']
   const randomChoice = Math.floor(Math.random() * 3)
   return choices[randomChoice]
 }
 
-console.log(randomComputerChoice())
-
 const game = (userChoice) => {
-  console.log(`${userChoice}`)
+  const computerChoice = randomComputerChoice()
+  switch (userChoice + computerChoice) {
+    case 'paperrock':
+    case 'scissorspaper':
+    case 'rockscissors':
+      console.log('Player wins!')
+      break
+    case 'rockpaper':
+    case 'paperscissors':
+    case 'scissorsrock':
+      console.log('Player Loses!')
+      break
+    case 'rockrock':
+    case 'paperpaper':
+    case 'scissorsscissors':
+      console.log('Its a Tie!')
+    default:
+  }
 }
 
 const main = () => {
@@ -34,5 +49,4 @@ const main = () => {
     game('scissors')
   })
 }
-
 main()
