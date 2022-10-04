@@ -19,17 +19,21 @@ const win = (userChoice, computerChoice) => {
   userScore++
   userScore_span.innerHTML = userScore
   computerScore_span.innerHTML = computerScore
-  results_p.innerHTML = `${userChoice} beats ${computerChoice}. You win!`
+  results_p.innerHTML = `${userChoice} (user) beats ${computerChoice} (comp). You win!`
 }
 
 const lose = (userChoice, computerChoice) => {
   computerScore++
   userScore_span.innerHTML = userScore
   computerScore_span.innerHTML = computerScore
-  results_p.innerHTML = `${userChoice} loses to ${computerChoice}. You lose!`
+  results_p.innerHTML = `${userChoice} (user) loses to ${computerChoice} (comp). You lose!`
 }
 
-const tie = () => {}
+const tie = (userChoice, computerChoice) => {
+  userScore_span.innerHTML = userScore
+  computerScore_span.innerHTML = computerScore
+  results_p.innerHTML = `${userChoice} (user) equals ${computerChoice} (comp). Its a tie!`
+}
 
 const game = (userChoice) => {
   const computerChoice = randomComputerChoice()
