@@ -14,25 +14,34 @@
     </header>
 
     <div class="score-board">
-        <div id="user-label" class="badge">User</div>
+        <div id="user-label" class="badge">user</div>
         <div id="computer-label" class="badge">Comp</div>
         <span id="user-score">0</span>:<span id="computer-score">0</span>
     </div>
 
     <div class="choices">
-        <div class="choice" id="rock">
+        <div style='cursor: pointer'class="choice" id="rock">
             <img src="rock.png" alt="">
         </div>
-        <div class="choice" id="scissors">
+        <div style='cursor: pointer'class="choice" id="scissors">
             <img src="scissors.png" alt="">
         </div>
-        <div class="choice" id="paper">
+        <div style='cursor: pointer'class="choice" id="paper">
             <img src="paper.png" alt="">
         </div>
     </div>
 
+    <style>
+    body {
+        background-image: url('https://i.imgur.com/5bqflBe.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    </style>
+
     <div class="results">
         <p>Rock beats Scissors. You Win!</p>
-    </footer>
+    </div>
 </body>
 </html>

@@ -30,8 +30,6 @@ const lose = (userChoice, computerChoice) => {
 }
 
 const tie = (userChoice, computerChoice) => {
-  userScore_span.innerHTML = userScore
-  computerScore_span.innerHTML = computerScore
   results_p.innerHTML = `${userChoice} (user) equals ${computerChoice} (comp). Its a tie!`
 }
 
