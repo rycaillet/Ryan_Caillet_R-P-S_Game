@@ -5,15 +5,21 @@
 }
 
 img {
-    width: 200px;
-    padding: 20px;
-    margin: 10px;
-    border: solid black;
-    border-radius: 200px;
+    width: 150px;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
 }
 
-.choices {
-    margin-top: 10px;
+.choice {
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    background: white;
 }
 
 .score-board {
@@ -28,9 +34,10 @@ img {
 }
 
 p {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    font-weight: bold; 
+    font-weight: bold;
+    margin-top: 100px;
 }
 
 h1 {
@@ -51,13 +58,28 @@ h1 {
 #user-label {
     position: absolute;
     top: 30px;
-    left: -25px;
+    left: -50px;
 }
 
 #computer-label {
     position: absolute;
     top: 30px;
-    right: -30px;
+    right: -62px;
 }
 
+#restart {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 2px black;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 15px 25px;
+    text-align: center;
+    color: white;
+}
 

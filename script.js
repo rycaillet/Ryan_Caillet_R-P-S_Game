@@ -8,6 +8,7 @@ const results_p = document.querySelector('.results > p')
 const rock_div = document.getElementById('rock')
 const paper_div = document.getElementById('paper')
 const scissors_div = document.getElementById('scissors')
+const restartButton = document.getElementById('restart')
 
 const randomComputerChoice = () => {
   const choices = ['rock', 'paper', 'scissors']
@@ -68,3 +69,15 @@ const main = () => {
   })
 }
 main()
+
+const clearGame = () => {
+  userScore = 0
+  computerScore = 0
+  userScore_span.innerHTML = userScore
+  computerScore_span.innerHTML = computerScore
+  results_p.innerHTML = `Good luck!`
+}
+
+restartButton.addEventListener('click', () => {
+  clearGame()
+})
