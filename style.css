@@ -46,7 +46,8 @@ p {
     color: black;
     font-size: 50px;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    font-family: "Playfair Display", sans-serif;
 }
 
 .badge {
