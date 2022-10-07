@@ -4,7 +4,11 @@
 
 ### By: Ryan Caillet
 
+<<<<<<< HEAD
 #### [Github](https://github.com/rycaillet) | [LinkedIn](https://www.linkedin.com/in/ryan-caillet-b12a99239/) | [Trello](https://trello.com/b/tD8HSlHd/ryan-caillet-rock-paper-scissors) | [RPS Game](RyancailletRPS.surge.sh)
+=======
+#### [Github](https://github.com/rycaillet) | [LinkedIn](https://www.linkedin.com/in/ryan-caillet-b12a99239/) | [Trello](https://trello.com/b/tD8HSlHd/ryan-caillet-rock-paper-scissors)
+>>>>>>> 5a0d41d2afa6e1b60344f399d58b5776fb287107
 ***
 
 ### ***Description***
