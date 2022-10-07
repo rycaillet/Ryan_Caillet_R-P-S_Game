@@ -35,6 +35,6 @@
 
 ##### Funny Image: [Imgur](https://imgur.com/)
 
-##### Markdown Guide: [ia.net]((https://ia.net/writer/support/general/markdown-guide))
+##### Markdown Guide: [ia.net](https://ia.net/writer/support/general/markdown-guide)
 
 ##### Markdown Cheatsheet: [Github](https://www.markdownguide.org/cheat-sheet/)
